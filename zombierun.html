@@ -13,74 +13,138 @@
   p, li { color:var(--fg); }
   .dim { color:var(--dim); font-size:.9em; }
   hr { border:0; border-top:1px solid #3a3746; margin:48px 0; }
-  a { color:var(--accent); }
+  a { color:var(--accent); word-break:break-word; }
 </style>
 </head>
 <body>
 <main>
   <h1>zombierun 개인정보처리방침</h1>
-  <p class="dim">windmaker · 시행일 2026년 11월 3일</p>
+  <p class="dim">windmaker · 시행일 2026년 11월 11일 (이전 버전: 2026년 11월 3일)</p>
 
-  <h2>1. 수집하는 개인정보</h2>
-  <p>zombierun(이하 "게임")은 이름, 이메일, 전화번호, 위치, 연락처, 사진 등 어떤 개인정보도 수집하지 않습니다. 회원가입과 로그인이 없고, 광고와 인앱 결제도 없습니다.</p>
+  <h2>1. 개요</h2>
+  <p>zombierun(이하 "게임")은 회원가입과 로그인이 없고, 인앱 결제도 없습니다. 개발자(windmaker)는 이름, 이메일, 전화번호, 연락처, 사진 같은 개인정보를 직접 수집하거나 보관하지 않습니다.</p>
+  <p>다만 게임에는 Google AdMob의 <b>보상형 광고</b>가 들어 있어, 광고를 보여 주는 과정에서 Google이 아래 3번의 정보를 수집할 수 있습니다. 광고는 메인 화면의 구급상자 더미를 눌러 사용자가 원할 때만 보며(하루 최대 5번), 광고를 보면 구급상자를 받습니다. 전면 광고와 배너 광고는 없고, 광고를 보지 않아도 게임을 끝까지 즐길 수 있습니다.</p>
 
   <h2>2. 기기에만 저장되는 정보</h2>
-  <p>게임은 아래 정보를 사용자의 기기 안에만 저장하며, 외부로 보내지 않습니다. 앱을 지우면 함께 지워집니다.</p>
+  <p>게임은 아래 정보를 사용자의 기기 안에만 저장하며, 개발자에게 보내지 않습니다. 앱을 지우면 함께 지워집니다.</p>
   <ul>
-    <li>최고 점수, 직전 판 점수, 모은 코인 수</li>
+    <li>최고 기록, 모은 코인, 구입한 캐릭터와 강화 단계, 깬 스테이지, 미션 진행, 구급상자 수와 오늘 받은 횟수</li>
     <li>효과음, 음악, 진동 켜기/끄기 설정</li>
   </ul>
 
-  <h2>3. 외부 서비스</h2>
+  <h2>3. 광고 (Google AdMob)</h2>
+  <p>보상형 광고는 Google LLC의 AdMob이 제공합니다. 광고를 불러오고 보여 주고 부정 사용을 막기 위해 AdMob은 다음 정보를 수집하고 처리할 수 있습니다.</p>
   <ul>
-    <li><b>Google Play</b>: 새 버전이 있는지 확인하고 업데이트할 때 Google Play의 인앱 업데이트 기능을 씁니다. 이 과정은 Google이 처리하며 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 따릅니다.</li>
-    <li><b>Unity</b>: 게임을 만든 Unity 엔진이 기기 종류, 운영체제 버전 같은 익명의 기술 정보를 Unity Technologies에 보낼 수 있습니다. 개인을 식별하는 정보는 포함되지 않으며 <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity 개인정보처리방침</a>을 따릅니다.</li>
+    <li>광고 ID(Android 광고 ID)</li>
+    <li>IP 주소와 이를 바탕으로 한 대략적인 위치(국가·도시 수준)</li>
+    <li>기기 정보: 기기 모델, 운영체제와 버전, 언어, 화면 크기, 통신사·네트워크 종류</li>
+    <li>앱 정보와 광고 이용 기록: 앱 패키지 이름(com.windmaker.zombierun), 광고 요청·노출·클릭 기록</li>
+    <li>오류와 성능 같은 진단 정보</li>
+  </ul>
+  <p>이 정보는 Google이 수집하고 처리하며, 개발자는 이 정보를 받거나 저장하지 않습니다. 정보는 전송 중 암호화되며 Google의 서버(대한민국 밖 포함)로 보내질 수 있습니다. 자세한 내용은 아래 문서를 참고해 주세요.</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></li>
+    <li><a href="https://policies.google.com/technologies/partner-sites">Google이 파트너 사이트나 앱의 정보를 사용하는 방법</a></li>
+    <li><a href="https://policies.google.com/technologies/ads">Google의 광고 사용 방식</a></li>
+  </ul>
+  <p>유럽 경제 지역(EEA), 영국, 스위스 등 법에서 요구하는 지역의 사용자에게는 광고 전에 Google의 동의 화면으로 맞춤 광고 동의 여부를 묻습니다. 동의하지 않아도 비맞춤 광고로 게임과 보상을 그대로 이용할 수 있습니다.</p>
+
+  <h2>4. 맞춤 광고 끄기</h2>
+  <ul>
+    <li>Android 기기의 <b>설정 &gt; Google &gt; 광고</b>(기기에 따라 <b>설정 &gt; 개인정보 보호 &gt; 광고</b>)에서 <b>광고 ID 삭제</b>를 누르면 맞춤 광고에 광고 ID가 쓰이지 않습니다. 광고 ID 재설정도 같은 곳에서 할 수 있습니다.</li>
+    <li><a href="https://myadcenter.google.com/">Google 내 광고 센터</a>에서 맞춤 광고를 끌 수 있습니다.</li>
+    <li>광고를 아예 보지 않으려면 구급상자 더미를 누르지 않으면 됩니다.</li>
   </ul>
 
-  <h2>4. 권한</h2>
-  <p>부딪혔을 때 짧게 진동하기 위해 진동 권한을 씁니다. 설정에서 진동을 끌 수 있습니다.</p>
+  <h2>5. 그 밖의 외부 서비스</h2>
+  <ul>
+    <li><b>Google Play</b>: 새 버전이 있는지 확인하고 업데이트할 때 Google Play의 인앱 업데이트 기능을 씁니다. 이 과정은 Google이 처리하며 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 따릅니다.</li>
+    <li><b>Unity</b>: 게임을 만든 Unity 엔진이 기기 종류, 운영체제 버전 같은 기술 정보를 Unity Technologies에 보낼 수 있으며 <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity 개인정보처리방침</a>을 따릅니다.</li>
+  </ul>
 
-  <h2>5. 아동</h2>
-  <p>게임은 누구의 개인정보도 수집하지 않으므로 만 14세 미만 아동의 개인정보도 수집하지 않습니다.</p>
+  <h2>6. 권한</h2>
+  <ul>
+    <li><b>인터넷·네트워크 상태</b>: 광고를 불러오고 업데이트를 확인하는 데 씁니다.</li>
+    <li><b>광고 ID</b>(com.google.android.gms.permission.AD_ID): AdMob 광고에 씁니다.</li>
+    <li><b>진동</b>: 부딪혔을 때 짧게 진동합니다. 설정에서 끌 수 있습니다.</li>
+  </ul>
 
-  <h2>6. 변경</h2>
+  <h2>7. 아동</h2>
+  <p>게임은 좀비가 나오는 게임으로 만 13세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 알면서 수집하지 않습니다. 만 14세 미만 아동이 광고를 통해 정보가 수집되었다고 생각되면 보호자가 아래 이메일로 알려 주세요. 확인 후 필요한 조치(광고 ID 삭제 방법 안내, Google에 삭제 요청 등)를 돕겠습니다.</p>
+
+  <h2>8. 이용자의 권리</h2>
+  <p>기기에만 저장된 정보는 앱을 지우면 모두 지워집니다. Google이 처리하는 광고 정보는 위 4번 방법이나 <a href="https://myaccount.google.com/data-and-privacy">Google 계정 데이터 및 개인정보</a>에서 관리할 수 있습니다. 궁금한 점은 아래 이메일로 문의해 주세요.</p>
+
+  <h2>9. 변경</h2>
   <p>이 방침이 바뀌면 이 페이지에 새 내용과 시행일을 올립니다.</p>
 
-  <h2>7. 문의</h2>
-  <p>이메일: <a href="mailto:windmaker0918@gmail.com">windmaker0918@gmail.com</a></p>
+  <h2>10. 문의</h2>
+  <p>windmaker · 이메일: <a href="mailto:windmaker0918@gmail.com">windmaker0918@gmail.com</a></p>
 
   <hr>
 
   <h1>zombierun Privacy Policy</h1>
-  <p class="dim">windmaker · Effective November 3, 2026</p>
+  <p class="dim">windmaker · Effective November 11, 2026 (previous version: November 3, 2026)</p>
 
-  <h2>1. Information we collect</h2>
-  <p>zombierun (the "Game") does not collect any personal information such as your name, email, phone number, location, contacts or photos. There are no accounts, no ads and no in-app purchases.</p>
+  <h2>1. Overview</h2>
+  <p>zombierun (the "Game") has no accounts, no login and no in-app purchases. The developer (windmaker) does not directly collect or keep personal information such as your name, email, phone number, contacts or photos.</p>
+  <p>The Game shows <b>rewarded ads</b> from Google AdMob, and Google may collect the information listed in section 3 to serve them. Ads are shown only when you choose to watch one by tapping the first-aid kit pile on the main screen (up to 5 times a day), and you get a first-aid kit in return. There are no interstitial or banner ads, and the whole Game can be played without watching any ads.</p>
 
   <h2>2. Data stored only on your device</h2>
-  <p>The Game stores the following only on your device and never sends it anywhere. It is deleted when you uninstall the Game.</p>
+  <p>The Game stores the following only on your device and never sends it to the developer. It is deleted when you uninstall the Game.</p>
   <ul>
-    <li>Best score, last score and collected coins</li>
+    <li>Best records, coins, purchased characters and upgrade levels, cleared stages, mission progress, first-aid kits and today's kit count</li>
     <li>Sound, music and vibration on/off settings</li>
   </ul>
 
-  <h2>3. Third-party services</h2>
+  <h2>3. Advertising (Google AdMob)</h2>
+  <p>Rewarded ads are provided by AdMob from Google LLC. To load and show ads and to prevent fraud, AdMob may collect and process:</p>
   <ul>
-    <li><b>Google Play</b>: the Game uses Google Play In-App Updates to check for and install new versions. This is handled by Google under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
-    <li><b>Unity</b>: the Unity engine used to build the Game may send anonymous technical information, such as device model and OS version, to Unity Technologies. It does not identify you and is covered by the <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Privacy Policy</a>.</li>
+    <li>Advertising ID (Android advertising ID)</li>
+    <li>IP address and approximate location derived from it (country or city level)</li>
+    <li>Device information: model, operating system and version, language, screen size, carrier and network type</li>
+    <li>App information and ad interactions: app package name (com.windmaker.zombierun), ad requests, impressions and clicks</li>
+    <li>Diagnostics such as crashes and performance</li>
+  </ul>
+  <p>This information is collected and processed by Google; the developer does not receive or store it. It is encrypted in transit and may be transferred to Google servers outside your country. For details, see:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+    <li><a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a></li>
+    <li><a href="https://policies.google.com/technologies/ads">How Google uses advertising</a></li>
+  </ul>
+  <p>Where required by law, such as in the EEA, the UK and Switzerland, you will be asked for consent through Google's consent message before personalized ads are shown. If you do not consent, you still get non-personalized ads and the same rewards.</p>
+
+  <h2>4. Turning off personalized ads</h2>
+  <ul>
+    <li>On Android, go to <b>Settings &gt; Google &gt; Ads</b> (or <b>Settings &gt; Privacy &gt; Ads</b> on some devices) and tap <b>Delete advertising ID</b> so your ID is no longer used for personalized ads. You can also reset it there.</li>
+    <li>You can turn off personalized ads in <a href="https://myadcenter.google.com/">Google My Ad Center</a>.</li>
+    <li>To avoid ads entirely, simply don't tap the first-aid kit pile.</li>
   </ul>
 
-  <h2>4. Permissions</h2>
-  <p>The Game uses the vibration permission for a short buzz when you crash. You can turn vibration off in settings.</p>
+  <h2>5. Other third-party services</h2>
+  <ul>
+    <li><b>Google Play</b>: the Game uses Google Play In-App Updates to check for and install new versions. This is handled by Google under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+    <li><b>Unity</b>: the Unity engine used to build the Game may send technical information, such as device model and OS version, to Unity Technologies under the <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Privacy Policy</a>.</li>
+  </ul>
 
-  <h2>5. Children</h2>
-  <p>The Game does not collect personal information from anyone, including children.</p>
+  <h2>6. Permissions</h2>
+  <ul>
+    <li><b>Internet and network state</b>: to load ads and check for updates.</li>
+    <li><b>Advertising ID</b> (com.google.android.gms.permission.AD_ID): used for AdMob ads.</li>
+    <li><b>Vibration</b>: a short buzz when you crash. You can turn it off in settings.</li>
+  </ul>
 
-  <h2>6. Changes</h2>
+  <h2>7. Children</h2>
+  <p>The Game features zombies and is not directed at children under 13, and we do not knowingly collect personal information from children. If a parent or guardian believes a child's information was collected through ads, please contact us at the email below and we will help (for example, explaining how to delete the advertising ID or requesting deletion from Google).</p>
+
+  <h2>8. Your choices</h2>
+  <p>Data stored on your device is removed when you uninstall the Game. Ad data processed by Google can be managed using section 4 or <a href="https://myaccount.google.com/data-and-privacy">Google Account Data &amp; privacy</a>. Contact us with any questions.</p>
+
+  <h2>9. Changes</h2>
   <p>If this policy changes, the new version and its effective date will be posted on this page.</p>
 
-  <h2>7. Contact</h2>
-  <p>Email: <a href="mailto:windmaker0918@gmail.com">windmaker0918@gmail.com</a></p>
+  <h2>10. Contact</h2>
+  <p>windmaker · Email: <a href="mailto:windmaker0918@gmail.com">windmaker0918@gmail.com</a></p>
 </main>
 </body>
 </html>
